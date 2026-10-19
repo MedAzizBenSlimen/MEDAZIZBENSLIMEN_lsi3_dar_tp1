@@ -41,7 +41,7 @@ Les captures d'écran présentant le code source et les résultats d'exécution 
 
 ### Code source du client
 
-<!-- Ajouter ici la capture du code client -->
+![Exécution du serveur](screenshots/2.png)
 
 ### Résultat d'exécution du serveur
 
