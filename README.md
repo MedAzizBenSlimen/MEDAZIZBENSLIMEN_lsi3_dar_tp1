@@ -2,7 +2,7 @@
 
 ## 1. Présentation du projet
 
-Ce projet a pour objectif de mettre en pratique la communication entre un client et un serveur en Java à l'aide des sockets réseau.
+Établir une communication entre un client et un serveur en Java à l'aide des sockets TCP.
 
 Le serveur attend les connexions entrantes, tandis que le client tente de se connecter au serveur en utilisant une adresse IP et un numéro de port.
 
@@ -49,8 +49,46 @@ Les captures d'écran présentant le code source et les résultats d'exécution 
 
 ### Résultat d'exécution du client
 
-<!-- Ajouter ici la capture du client connecté -->
+![Exécution du serveur](screenshots/img_3.png)
+
+
 
 ## 6. Conclusion
 
-Ce TP permet de comprendre les bases de la communication client-serveur en Java, notamment l'utilisation des sockets, l'adressage IP et les numéros de port.
+Ce TP permet de comprendre les bases de la communication client-serveur en Java
+
+
+
+
+Activité 1-2 : Service de calculatrice
+
+
+Objectif
+Établir une communication entre un client et un serveur en Java à l'aide des sockets TCP afin de réaliser un calcul côté serveur et de renvoyer le résultat au client.
+
+Application serveur
+La classe Server, située dans le package serverPackage, attend la connexion d'un client sur le port 1234.
+
+Après la connexion, le serveur reçoit un nombre entier envoyé par le client à l'aide de DataInputStream. Il multiplie ce nombre par 5, puis renvoie le résultat au client avec DataOutputStream.
+
+Application client
+La classe Client, située dans le package ClientPackage, se connecte au serveur à l'aide d'une socket TCP sur localhost et le port 1234.
+
+Le client demande à l'utilisateur de saisir un nombre entier, l'envoie au serveur, puis reçoit et affiche le résultat du calcul effectué par le serveur.
+serveur:
+![Exécution du serveur](screenshots/4.png)
+Resultat:
+![Exécution du serveur](screenshots/res4.png)
+CLIENT:
+![Exécution du serveur](screenshots/3.png)
+Resultat:
+![Exécution du serveur](screenshots/res3.png)
+
+
+
+
+
+
+
+
+
