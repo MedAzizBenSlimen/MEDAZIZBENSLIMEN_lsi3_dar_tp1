@@ -82,7 +82,7 @@ Resultat:
 CLIENT:
 ![Exécution du serveur](screenshots/3.png)
 Resultat:
-![Exécution du serveur](screenshots/res3.png)
+![Exécution du serveur](screenshots/resc3.png)
 
 
 
