@@ -37,7 +37,7 @@ Après le démarrage du serveur, le client est exécuté afin d'établir une con
 Les captures d'écran présentant le code source et les résultats d'exécution seront ajoutées dans cette section.
 
 ### Code source du serveur
-![Exécution du serveur](screenshots/server.png)
+![Exécution du serveur](screenshots/1.png)
 
 ### Code source du client
 
